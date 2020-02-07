@@ -1,0 +1,51 @@
+digraph {
+	node [shape=circle]
+	rankdir=LR size=8
+	"Python & Linux"
+	"World Wide Web"
+	"Internet Archive"
+	"Machine learning"
+	"Data science"
+	Statistics
+	Sciences
+	"Python & Linux" -> "Python & Linux" [label=0.77]
+	"Python & Linux" -> "World Wide Web" [label=0.16]
+	"Python & Linux" -> "Machine learning" [label=0.04]
+	"Python & Linux" -> "Data science" [label=0.02]
+	"Python & Linux" -> Statistics [label=0.01]
+	"World Wide Web" -> "Python & Linux" [label=0.02]
+	"World Wide Web" -> "World Wide Web" [label=0.76]
+	"World Wide Web" -> "Internet Archive" [label=0.07]
+	"World Wide Web" -> "Machine learning" [label=0.06]
+	"World Wide Web" -> "Data science" [label=0.05]
+	"World Wide Web" -> Statistics [label=0.01]
+	"World Wide Web" -> Sciences [label=0.03]
+	"Internet Archive" -> "Python & Linux" [label=0.01]
+	"Internet Archive" -> "World Wide Web" [label=0.18]
+	"Internet Archive" -> "Internet Archive" [label=0.79]
+	"Internet Archive" -> "Machine learning" [label=0.01]
+	"Internet Archive" -> "Data science" [label=0.01]
+	"Machine learning" -> "Python & Linux" [label=0.03]
+	"Machine learning" -> "World Wide Web" [label=0.09]
+	"Machine learning" -> "Internet Archive" [label=0.01]
+	"Machine learning" -> "Machine learning" [label=0.64]
+	"Machine learning" -> "Data science" [label=0.15]
+	"Machine learning" -> Statistics [label=0.04]
+	"Machine learning" -> Sciences [label=0.04]
+	"Data science" -> "World Wide Web" [label=0.02]
+	"Data science" -> "Machine learning" [label=0.08]
+	"Data science" -> "Data science" [label=0.82]
+	"Data science" -> Statistics [label=0.07]
+	"Data science" -> Sciences [label=0.01]
+	Statistics -> "World Wide Web" [label=0.01]
+	Statistics -> "Machine learning" [label=0.03]
+	Statistics -> "Data science" [label=0.18]
+	Statistics -> Statistics [label=0.77]
+	Statistics -> Sciences [label=0.01]
+	Sciences -> "Python & Linux" [label=0.01]
+	Sciences -> "World Wide Web" [label=0.15]
+	Sciences -> "Machine learning" [label=0.09]
+	Sciences -> "Data science" [label=0.07]
+	Sciences -> Statistics [label=0.04]
+	Sciences -> Sciences [label=0.64]
+}
